@@ -5,7 +5,6 @@
   * The CPE inputs will be checked against vulners.com's database using their API
   * The CPE inputs will be checked against vuln.sentnl
 
-<<<<<<< HEAD
 #### Minimum Viable Project Outcomes ####
   * We will be able to take a user's single CPE input and query it against either the vulner's or vuln's databse and get all the CVE's associated with said CPE
   
@@ -17,6 +16,3 @@
   * Our script will be able to save the output (CVE's, description of the CVE, etc.) into an file (Excel file or text file)
 =======
 Psuedo Code ~
-
-
->>>>>>> main
