@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-### HELPER FUNCTIONS (IF NECESSARY) ###
- 
-### MAIN FUNCTION ###
-def main():
-  file = sys.argv[1]
-  with open(file) as f:
-    log_output(f)
-  
-### DUNDER CHECK ###
-if __name__ == "__main__":
-  main()
+import requests
+
+query = {"id":"pe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:*:*"}
+response = requests.get("https://vuln.sentnl.io/api/cve/CVE-2016-3333",params = query)
+data = response.json()
+
+print(data)
+print("-" * 40 + "\n")
+print(type(data))
+print("-" * 40 + "\n")
+print("DICTIONARY KEYS ARE:")
+print(data.keys())
