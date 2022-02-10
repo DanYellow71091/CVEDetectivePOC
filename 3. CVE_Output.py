@@ -1,3 +1,4 @@
+
 import requests
 import json
 
@@ -42,3 +43,20 @@ print("CVE: " + CVE + "\n" +
 "CVSS: " + str(CVSS) + "\n\n" +
 "Summary: " + summary + "\n\n" + 
 "External Link(s):\n" + ext_link)
+
+
+#!/usr/bin/env python3
+
+import requests
+
+query = {"id":"pe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:*:*"}
+response = requests.get("https://vuln.sentnl.io/api/cve/CVE-2016-3333",params = query)
+data = response.json()
+
+print(data)
+print("-" * 40 + "\n")
+print(type(data))
+print("-" * 40 + "\n")
+print("DICTIONARY KEYS ARE:")
+print(data.keys())
+
