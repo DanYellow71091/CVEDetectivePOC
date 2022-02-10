@@ -12,9 +12,9 @@ response = requests.get("https://vuln.sentnl.io/api/cvefor/" + CPE)
 
 data = response.json()
 
-#print(data)
+print(data)
 #print("-" * 40 + "\n")
-#print(type(data))
+print(type(data))
 #print("-" * 40 + "\n")
 #print("DICTIONARY KEYS ARE:")
 #print(data.keys())
