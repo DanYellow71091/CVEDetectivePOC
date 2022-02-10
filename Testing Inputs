@@ -1,0 +1,30 @@
+https://nvd.nist.gov/products/cpe/search
+
+2.3
+cpe:2.3:a:apache:accumulo:1.4.1:*:*:*:*:*:*:*
+No match
+
+cpe:2.3:a:apache:accumulo:1.7.0:*:*:*:*:*:*:*
+CVE-2020-17533
+
+cpe:2.3:a:alpinelinux:abuild:1.8:*:*:*:*:*:*:*
+CVE-2019-12875
+
+cpe:2.3:a:apache:activemq:5.14.0:*:*:*:*:*:*:*
+CVE-2020-13947
+CVE-2020-13920
+CVE-2020-1941
+CVE-2015-7559
+CVE-2019-0222
+CVE-2018-8006
+CVE-2018-11775
+CVE-2017-15709
+CVE-2016-6810
+
+2.2
+cpe:/a:apache:activemq_artemis:2.6.3
+CVE-2021-26117
+CVE-2020-13932
+
+cpe:/o:linux:linux_kernel:3
+0 matching
