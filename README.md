@@ -1,7 +1,7 @@
 # CVE Detective POC #
 
 ### This project's goal is to automate finding the CVE's associated with any given CPE's.  ###
-####  This project will take 1 of two following 2 routes: ####
+####  The user will have the ability to check for any CVE's associated  ####
   * The CPE inputs will be checked against vulners.com's database using their API
   * The CPE inputs will be checked against vuln.sentnl
 
